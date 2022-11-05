@@ -1,0 +1,76 @@
+/*INICIO NOVO CSS*/
+
+body {
+  font-size: 15px;
+}
+
+.container {
+  display: flex;
+  margin: 15% 30% 0 30%;
+}
+
+section {
+  padding: 1% 0px;
+  border: 0px solid;
+  color: hsla(0, 0%, 100%);
+}
+
+p, h2, img {
+  padding: 0% 15%;
+}
+
+input {
+  margin: 15% 15% 5% 15%;
+  padding: 5% 12%;
+  border-radius: 40px;
+  font-size: 1em;
+}
+
+img, p {
+ margin: 15% 0;
+ font-family: 'Lexend Deca', sans-serif;
+ font-weight: 700;
+ font-size: 1em;
+}
+
+p {
+  height: 20%;
+  line-height: 130%;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-weight: 500;
+  font-size: 2.3em;
+  text-transform: uppercase;
+}
+
+.sedans {
+  background: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.sedans-botao {
+  border: 0px solid hsl(31, 77%, 52%);
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background: hsl(184, 100%, 22%);
+  border-radius: 0 0 0 0;
+}
+
+.suvs-botao {
+  border: 0px solid hsl(184, 100%, 22%);
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 10px 10px 0;
+}
+
+.luxury-botao {
+  border: 0px solid hsl(179, 100%, 13%);
+  color: hsl(179, 100%, 13%);
+}
